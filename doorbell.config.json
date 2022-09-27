@@ -1,0 +1,30 @@
+[
+    {
+        "header": "serialNumber",
+        "ignore": false,
+        "dbName": "serialNumber",
+        "criteria": "^(D1[0-9A-Z]{8})$ ",
+        "type": "string"
+    },
+    {
+        "header": "skuNumber",
+        "ignore": false,
+        "dbName": "skuNumber",
+        "criteria": "^(AUG-AB[0-9]{2})|(02-01-001)$",
+        "type": "string"
+    },
+    {
+        "header": "augfirmware",
+        "ignore": false,
+        "dbName": "augfirmware",
+        "criteria": "semver",
+        "type": "string"
+    },
+    {
+        "header": "battserialnumber",
+        "ignore": false,
+        "dbName": "batterySerialNumber",
+        "criteria": "^([0-9A-Z]{10})$",
+        "type": "date"
+    }
+]

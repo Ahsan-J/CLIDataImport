@@ -1,0 +1,16 @@
+{
+  "name": "importmanufacturingdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "importManufacturingData.js",
+  "scripts": {
+    "start": "node importManufacturingData.js connect connect-ok.csv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.5.3"
+  }
+}
